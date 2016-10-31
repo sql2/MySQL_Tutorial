@@ -1,0 +1,12 @@
+01. MySQL Download
+
+ - http://dev.mysql.com/downloads/mysql
+
+ Centos 6
+ $ sudo yum search mysql
+
+ Centos 7
+ $ wget http://repo.mysql.com/mysql-community-release-el7-5.noarch.rpm
+ $ sudo rpm -ivh mysql-community-release-el7-5.noarch.rpm
+ $ yum update
+
